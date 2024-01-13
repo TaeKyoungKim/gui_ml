@@ -24,6 +24,7 @@ class data_:
             pass
         else:
             cat_col=[x for x in df.columns if df[x].dtype=='object']
+            print(cat_col)
             # cat_col=[]
             # for i in df.columns:
             #     if (df[i].dtype=='object'):
